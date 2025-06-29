@@ -101,4 +101,4 @@ Uses:
 
 ## 📝 License
 
-MIT — use freely with attribution.
+Licensed under the MIT License. You can use, modify, and share this freely with attribution.
