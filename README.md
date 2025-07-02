@@ -2,7 +2,7 @@
 
 ---
 
-## 📦 Features
+## Features
 
 - Real-time hand tracking using webcam
 - Detects when all fingers are raised
@@ -11,7 +11,7 @@
 
 ---
 
-## 🖥️ Python Side (Hand Tracker)
+##  Python Side (Hand Tracker)
 
 ### Dependencies
 Install required libraries:
@@ -37,7 +37,7 @@ This will open your webcam and start gesture detection.
 
 ---
 
-## 🔌 Arduino Side
+## Arduino Side
 
 ### Hardware
 - Arduino UNO (or compatible)
@@ -58,7 +58,7 @@ Open `src/sketch.ino` in the Arduino IDE and upload to your board.
 
 ---
 
-## 🔁 Serial Communication
+## Serial Communication
 
 | Hand Gesture         | Command Sent | LED Action     |
 |----------------------|--------------|----------------|
@@ -67,7 +67,7 @@ Open `src/sketch.ino` in the Arduino IDE and upload to your board.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 - MediaPipe detects hand landmarks from webcam input
 - If all 5 fingers are raised, it sends `'1'` via serial
@@ -76,7 +76,7 @@ Open `src/sketch.ino` in the Arduino IDE and upload to your board.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── src/
@@ -90,7 +90,7 @@ Open `src/sketch.ino` in the Arduino IDE and upload to your board.
 
 ---
 
-## 🧠 Credits
+## Credits
 
 Uses:
 - [MediaPipe Hands](https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker)
@@ -99,6 +99,6 @@ Uses:
 
 ---
 
-## 📝 License
+## License
 
 Licensed under the MIT License. You can use, modify, and share this freely with attribution.
