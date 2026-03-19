@@ -1,15 +1,15 @@
 <div align="center">
 
-# hand-gesture-arduino-led-control
+# GestureLight
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/platform-Python%20%7C%20Arduino-blueviolet.svg)](#)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](#)
-[![Last Commit](https://img.shields.io/github/last-commit/Huerte/hand-gesture-arduino-led-control.svg)](#)
+[![Last Commit](https://img.shields.io/github/last-commit/Huerte/gesturelight.svg)](#)
 
 **Real-time hand tracking utilizing OpenCV and MediaPipe to control an Arduino LED circuit.**
 
-<a href="https://github.com/Huerte/hand-gesture-arduino-led-control/issues">Report Bug</a> · <a href="https://github.com/Huerte/hand-gesture-arduino-led-control/issues">Request Feature</a>
+<a href="https://github.com/Huerte/gesturelight/issues">Report Bug</a> · <a href="https://github.com/Huerte/gesturelight/issues">Request Feature</a>
 
 </div>
 
@@ -53,7 +53,7 @@ Built to be responsive, easy to set up, and straightforward.
 
 ## Installation Guide
 
-Follow these steps to install hand-gesture-arduino-led-control locally.
+Follow these steps to install `gesturelight` locally.
 
 ### Prerequisites
 
@@ -67,8 +67,8 @@ Follow these steps to install hand-gesture-arduino-led-control locally.
 ### Step 1: Get the Code
 
 ```bash
-git clone https://github.com/Huerte/hand-gesture-arduino-led-control
-cd hand-gesture-arduino-led-control
+git clone https://github.com/Huerte/gesturelight
+cd gesturelight
 ```
 
 ---
@@ -104,7 +104,7 @@ python src/main.py
 ## Project Structure
 
 ```
-hand-gesture-arduino-led-control/
+gesturelight/
 │
 ├── src/
 │   ├── main.py          # Python script (hand tracker)
@@ -127,7 +127,7 @@ Error: could not open port 'COM3': FileNotFoundError...
 ```
 > **Fix:** Check your Arduino IDE or Device Manager to identify the correct COM port assigned to your board. Update `serial.port` in `src/main.py` accordingly.
 
-> Still stuck? [Open an issue](https://github.com/Huerte/hand-gesture-arduino-led-control/issues) with your error details and environment info.
+> Still stuck? [Open an issue](https://github.com/Huerte/gesturelight/issues) with your error details and environment info.
 
 ---
 
