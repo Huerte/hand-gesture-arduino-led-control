@@ -67,7 +67,7 @@ Follow these steps to install `gesturelight` locally.
 ### Step 1: Get the Code
 
 ```bash
-git clone https://github.com/Huerte/gesturelight
+git clone https://github.com/Huerte/gesturelight.git
 cd gesturelight
 ```
 
